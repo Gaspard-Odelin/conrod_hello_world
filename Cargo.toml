@@ -1,0 +1,17 @@
+[package]
+name = "kek"
+version = "0.1.0"
+authors = ["Gaspard-Odelin AV <gaspard-odelin.av@epitech.eu>"]
+
+[dependencies]
+#"piston", 
+conrod = { version = "0.61.1", features = ["glium", "winit"] }
+winit = "0.17"
+glium = "0.22"
+#piston2d-graphics = { version = "0.26", optional = true }
+#gfx = { version = "0.17", optional = true }
+#gfx_core = { version = "0.8", optional = true }
+
+[features]
+#piston = ["piston2d-graphics"]
+#gfx_rs=["gfx","gfx_core"]
